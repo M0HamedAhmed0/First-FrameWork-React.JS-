@@ -1,4 +1,3 @@
-import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "flowbite/dist/flowbite";
 import Home from "./Components/Home/Home";
