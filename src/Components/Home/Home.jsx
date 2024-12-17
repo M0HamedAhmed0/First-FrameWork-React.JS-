@@ -7,8 +7,8 @@ export default function Home() {
             <Helmet>
                 <title>Home</title>
             </Helmet>
-            <header className="bg-[#1abd9c] text-white text-center p-8 mt-24">
-                <div className="container max-w-md m-auto">
+            <header className="bg-[#1abd9c] text-white text-center p-8 mt-24 h-screen">
+                <div className="container max-w-md m-auto mt-20">
                     <div className="imgHome w-[250px] m-auto mb-5">
                         <img src={HeaderImg} alt="" />
                     </div>

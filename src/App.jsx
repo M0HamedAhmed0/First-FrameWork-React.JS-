@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "flowbite/dist/flowbite";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
-import Footer from "./Components/Footer/Footer";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Layout from "./Components/Layout/Layout";
@@ -17,7 +16,6 @@ const router = createBrowserRouter([
             { path: "about", element: <About /> },
             { path: "portfolio", element: <Portfolio /> },
             { path: "contact", element: <Contact /> },
-            { path: "footer", element: <Footer /> },
         ],
     },
     { path: "*", element: <NotFound /> },

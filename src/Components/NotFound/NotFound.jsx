@@ -9,7 +9,7 @@ export default function NotFound() {
                 <title>Page Not Found</title>
             </Helmet>
             <Navbar />
-            <section className="mt-16 pt-12">
+            <section className="mt-52 pt-48">
                 <div className="container m-auto text-center">
                     <div className="header-title pt-12">
                         <div className="title">
